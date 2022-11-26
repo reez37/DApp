@@ -1,0 +1,55 @@
+
+
+.container{
+    width: 300px;
+    height: 180px;
+    margin-bottom: 50px; 
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    .firstrow{
+        display: flex;
+        align-items: center;
+        padding-top: 7px;
+        width: 300px;
+        .cryptoimage{
+            width: 50px;
+            height: 50px;
+            margin: 5px 15px 5px 10px;
+
+        }
+        .cryptoname{
+            font-weight: 600;
+            font-size: 22px;
+            margin-bottom: 5px;
+        }
+        .cryptosymbol{
+            margin-bottom: 3px;
+            margin-left: 3px;
+        }
+    }
+    .scndrow{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+        font-size: larger;
+
+    }
+    .thirdrow{
+        display: flex;
+        justify-content: space-around;
+        .red{
+            color: red;
+            font-weight: 500;
+        }
+        .green{
+            color: rgb(2, 195, 2);
+            font-weight: 500;
+        }
+    }
+    .forthrow{
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }    
+}
+

@@ -1,0 +1,217 @@
+
+
+.contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin-right:65%;
+    .username{
+        height: 40px;
+        width: 220px;
+        padding: 5px 15px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgba(87, 159, 253, 0.773) ;
+        color: white;
+        font-size: medium;
+        
+    }
+    .email{
+        height: 40px;
+        width: 220px;
+        padding: 5px 15px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgba(87, 159, 253, 0.773) ;
+        color: white;
+        font-size: medium;
+  
+    }
+    .password{
+        height: 40px;
+        width: 220px;
+        padding: 5px 15px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgba(87, 159, 253, 0.773) ;
+        color: white;
+        font-size: medium;
+       
+    }
+    .sbtn{
+        height: 30px;
+        width: 120px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        border: none;
+        padding: 5px;
+        background-color: rgb(87, 159, 253);
+        color: white;
+        font-size: medium;
+        cursor: pointer;
+        
+    }
+}
+
+.triangle{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 10px;
+    height: 0px;
+    z-index: -1;
+    
+    border-left: 450px solid transparent;
+    border-right: 1000px solid rgba(87, 159, 253, 0.641);
+    border-bottom: 1050px solid transparent;
+}
+
+.lbox{
+    position: absolute;
+    top: 45%;
+    right: 15%;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+    .already{
+        font-size: larger;
+        margin-bottom: 10px;
+        span{
+            font-size: xx-large;
+        }
+    }
+    .sign{
+        font-size: larger;
+        margin-bottom: 10px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        color:rgb(87, 159, 253) ;
+        width: 50%;
+        padding: 5px 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        text-decoration: none;
+        
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:780px){
+    .triangle{
+        position: absolute;
+        right: 0;
+        width: 10px;
+        height: 0px;
+        z-index: -1;
+ 
+        border-right: 800px solid rgba(87, 159, 253, 0.641);
+        border-bottom: 350px solid transparent;
+    }
+
+    .lbox{
+        position: absolute;
+        top: 15%;
+        right: 10%;
+        color: white;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+        .already{
+            font-size: larger;
+            margin-bottom: 10px;
+            span{
+                font-size: xx-large;
+            }
+        }
+        .sign{
+            font-size: larger;
+            margin-bottom: 10px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            color:rgb(87, 159, 253) ;
+            width: 50%;
+            padding: 5px 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            text-decoration: none;
+            
+        }
+    }
+    .contain{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        margin-right:0;
+        margin-top: 50px;
+      
+        .username{
+            height: 40px;
+            width: 220px;
+            padding: 5px 15px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            border: none;
+            background-color: rgba(87, 159, 253, 0.773) ;
+            color: white;
+            font-size: medium;
+            
+        }
+        .email{
+            height: 40px;
+            width: 220px;
+            padding: 5px 15px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            border: none;
+            background-color: rgba(87, 159, 253, 0.773) ;
+            color: white;
+            font-size: medium;
+      
+        }
+        .password{
+            height: 40px;
+            width: 220px;
+            padding: 5px 15px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            border: none;
+            background-color: rgba(87, 159, 253, 0.773) ;
+            color: white;
+            font-size: medium;
+           
+        }
+        .sbtn{
+            height: 30px;
+            width: 120px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            border: none;
+            padding: 5px;
+            background-color: rgb(87, 159, 253);
+            color: white;
+            font-size: medium;
+            cursor: pointer;
+            
+        }
+    }
+        
+         
+      
+    
+}
+
